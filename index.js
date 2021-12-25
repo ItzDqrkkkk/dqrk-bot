@@ -3,7 +3,7 @@ const client = new Discord.Client(
     { intents: ["GUILDS", "GUILD_MEMBERS", "GUILD_MESSAGES"] }
 )
 
-client.login("OTIyOTI4NDI0MDU2NjgwNDg5.YcImEw.T6s7_qsjYm3dw_LE2-sO5HD4M74")
+client.login("process.env.token")
 
 client.on("message", message => {
     if (message.content.startsWith("!say")) {
