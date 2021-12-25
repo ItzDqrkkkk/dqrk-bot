@@ -16,3 +16,6 @@
     "yt-channel-info": "^2.2.0"
   }
 }
+"engines" : {
+     "node": "1.16.x"
+}
